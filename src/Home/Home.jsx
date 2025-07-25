@@ -1,9 +1,13 @@
 import React from 'react';
+import { useEffect } from 'react';
 import classNames from 'classnames';
 import Style from './Home.module.css';
 import avatar from './../assets/images/avataaars.svg';
 
 export default function Home() {
+   useEffect(() => {
+    document.title = "Home | My Website";
+  }, []);
   return (
     <>
       <div className={classNames(Style.bgColor)}>
