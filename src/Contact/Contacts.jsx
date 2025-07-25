@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import classNames from "classnames";
 import StyleAbout from "./../About/About.module.css";
 import StylePortfolio from "./../Portfolio/Portfolio.module.css";
@@ -7,6 +8,9 @@ import Style from './../Navbar/NavBar.module.css';
 
 export default function Contacts() {
   return (
+     useEffect(() => {
+    document.title = 'portfolio'; // ← العنوان الجديد للصفحة
+  }, []);
     <div className="container">
       <div
         className={` ${StylePortfolio.textColor}, text-uppercase , text-center`}
