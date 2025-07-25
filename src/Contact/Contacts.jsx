@@ -3,7 +3,7 @@ import classNames from "classnames";
 import StyleAbout from "./../About/About.module.css";
 import StylePortfolio from "./../Portfolio/Portfolio.module.css";
 import StyleContact from "./Contacts.module.css";
-import Style from './../Navbar/Navbar.module.css';
+import Style from './../Navbar/NavBar.module.css';
 
 export default function Contacts() {
   return (
