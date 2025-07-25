@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import StylePortfolio from "./Portfolio.module.css";
 import classNames from "classnames";
@@ -7,6 +8,9 @@ import Port1 from "./../assets/images/poert1.png";
 import Port2 from "./../assets/images/port2.png";
 import Port3 from "./../assets/images/port3.png";
 export default function Portfolio() {
+      useEffect(() => {
+    document.title = 'portfolio'; // ← العنوان الجديد للصفحة
+  }, []);
   return (
     <div className="container mb-2">
       <div
