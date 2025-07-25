@@ -7,10 +7,13 @@ import StyleContact from "./Contacts.module.css";
 import Style from './../Navbar/NavBar.module.css';
 
 export default function Contacts() {
-  return (
+
      useEffect(() => {
-    document.title = 'portfolio'; // ← العنوان الجديد للصفحة
+    document.title = 'contact '; 
   }, []);
+
+  return (  <>
+   
     <div className="container">
       <div
         className={` ${StylePortfolio.textColor}, text-uppercase , text-center`}
@@ -72,5 +75,8 @@ export default function Contacts() {
 
       </div>
     </div>
+
+    </>
   );
+
 }
