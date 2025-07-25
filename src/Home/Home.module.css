@@ -1,0 +1,14 @@
+.bgColor{
+  background-color: #1ABC9C;
+}
+
+
+.line {
+  width: 50px;
+  height: 4px;
+  background-color: white;
+}
+
+.bg-white{
+    background-color: white;
+}

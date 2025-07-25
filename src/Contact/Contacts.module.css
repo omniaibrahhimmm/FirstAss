@@ -1,0 +1,5 @@
+.inputCustom:focus {
+  border: 1px solid #ccc;
+  box-shadow: none !important;
+  outline: none;
+}
